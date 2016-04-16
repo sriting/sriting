@@ -73,7 +73,7 @@ img { display: block; border: none; max-width: 100%; }
 .li_right_more{ float: right; margin-right: 3%; margin-top:20px; width:20%;}
 .devide_p{border-top:dotted;margin-top:2em; padding-top: 2em; margin-right: 100px; }
 .li_right_p{ float: right; margin-right: 7%; width:25%;}
-.small_png {margin-left: 12%; margin-right: 7%;}
+.small_png {margin-left: 12%; width:82%;}
 .small_jpg{ float: right;}
 .home_p{margin-left:7%; width: 52%;}
 

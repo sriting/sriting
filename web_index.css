@@ -72,9 +72,9 @@ img { display: block; border: none; max-width: 100%; }
 .li_right{ float: right; margin-right: 50px; margin-top:20px; }
 .li_right_more{ float: right; margin-right: 100px; margin-top:20px;}
 .devide_p{border-top:dotted;margin-top:2em; padding-top: 2em; margin-right: 100px;}
-.li_right_p{ float: right; margin-right: 80px; }
+.li_right_p{ float: right; margin-right: 80px;  width:96%;}
 .small_png {margin-left: 150px; margin-right: 100px;}
-.small_jpg{ float: right; width:96%;}
+.small_jpg{ float: right;}
 .home_p{margin-left:100px;width:53%;}
 
 /*This part is the properties for the body part of page.*/

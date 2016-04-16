@@ -38,7 +38,7 @@ img { display: block; border: none; max-width: 100%; }
 .guide { width: 100%; height: 40px; line-height: 40px; background: #dedede; 
 	font-size: 13px; }
 .green { color: #0f9c7c; }
-.left-nav { min-height:700px; width: 15%; float: left; border: 1px solid #e5e5e5; 
+.left-nav { min-height:700px; width: 17%; float: left; border: 1px solid #e5e5e5; 
 	border-top: none; background: #f2f2f2; font-size: 16px; padding-bottom: 3000px;
 	 margin-bottom: -3000px; z-index: 99; }
 .left-nav ul li {   list-style-type: none;height: 54px; line-height: 54px; 
@@ -52,7 +52,7 @@ img { display: block; border: none; max-width: 100%; }
 .left-nav ul li.li-green a { color: #222; }
 .left-nav ul li.li-green .li-top { background: #0f9c7c; }
 .left-nav ul li a { color: #797979; display: block; font-weight: 400; font-size: 18px;}
-.right-con {margin-left:16%;background:#fff;min-height: 700px;padding:10px 0 0 10px;}
+.right-con {margin-left:20%;background:#fff;min-height: 700px;padding:10px 0 0 10px;}
 .vis-brief { text-align: center; }
 .vis-brief img { margin: 0 auto; }
 .brief-logo { padding-top: 40px; width:40%; padding-left: 12%}

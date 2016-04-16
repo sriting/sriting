@@ -57,10 +57,10 @@ img { display: block; border: none; max-width: 100%; }
 .vis-brief img { margin: 0 auto; }
 .brief-logo { padding-top: 40px; width:40%; padding-left: 12%}
 .brief-tit { font-size: 24px; font-weight: normal; padding: 20px 0; 
-	font-family: Georgia, "Times New Roman", Times, serif; }
+	font-family: Georgia, "Times New Roman", Times, serif;padding-left: 8% }
 .brief-con { padding-bottom: 50px;}
 .brf-p { margin-top: 20px; font-size: 20px; line-height:22px;text-indent:3em;
-    font-family:Georgia,"Times New Roman",Times,serif; color: #666;}
+    font-family:Georgia,"Times New Roman",Times,serif; color: #666;padding-left: 8%}
 .brf-c { margin-left: 12%;margin-top:20px;font-size:20px;color: #666;line-height:24px;}
 .brf-c span{ color: #19A566; }
 .brf-cm{ margin-left: 12%; margin-top:20px; font-size: 24px; color: #0f9c7c; 

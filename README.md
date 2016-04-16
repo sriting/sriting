@@ -1,2 +1,0 @@
-# sriting
-personal web page

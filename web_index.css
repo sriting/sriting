@@ -75,7 +75,7 @@ img { display: block; border: none; max-width: 100%; }
 .li_right_p{ float: right; margin-right: 80px; }
 .small_png {margin-left: 150px; margin-right: 100px;}
 .small_jpg{ float: right;}
-.home_p{margin-left:100px;}
+.home_p{margin-left:100px;visibility:hidden;}
 
 /*This part is the properties for the body part of page.*/
 #st-container { overflow: hidden; }

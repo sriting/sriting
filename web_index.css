@@ -1,0 +1,108 @@
+/*This file is web_index.css */
+body { background: #f2f2f2; font-size: 14px; }
+header { width: 100%; position: relative; background: #f2f2f2;}
+footer { width: 100%; background: #333; }
+img { display: block; border: none; max-width: 100%; }
+.banner { position: relative; margin: 0 auto; }
+.banner p.bantit { color: #fff; position: absolute; left: 5%; bottom: 20px; 
+	font-size: 30px; background: rgba(0,0,0,0.5); padding: 10px; }
+.banner p.bantit span b { letter-spacing: 1px; }
+
+/*It is the part of top buttoms' properties */
+#webpage { width: 100%; }
+.wr { font-family: Georgia, "Times New Roman", Times, serif; }
+.mar-11 { margin: 0 11%; position: relative; overflow: hidden; }
+.mar-11.mar-l-11 { margin: 0 0 0 11%; background: #fff; }
+.mar-r-12 { margin: 0 12.3595505% 0 0; position: relative; }
+.f-left { float: left; }
+.logo { margin-top: 8px; } /*The left-top Logo "Cai Jiaren" */
+.logo a.logobg { display: block; width: 113px; height: 66px;
+ background: url(cai.png) no-repeat left top; background-size: 113px; }
+
+.menu { background: #fff; height: 80px; line-height: 80px; }
+.header-nav { float: right; }
+.header-nav ul li { list-style-type: none;float: left;padding: 0 20px;font-size: 16px;}
+.header-nav ul li:hover { background: #0f9c7c; }
+.header-nav ul li:hover a { color: #fff; }
+.header-nav ul li a { padding-left: 10px; display: block; }
+.header-nav ul li.mo-green { background: #0f9c7c; }
+.header-nav ul li.mo-green a { color: #fff; } 
+
+.clearfix { clear: both; }
+.banner { width: 100%; min-height: 140px; overflow: hidden; }
+.banner img { margin: 0 auto; }
+
+.bottom-info { padding: 50px 0; color: #9a9a9a; font-size: 12px; line-height: 25px; }
+.bottom-info a { color: #9a9a9a; }
+
+.guide { width: 100%; height: 40px; line-height: 40px; background: #dedede; 
+	font-size: 13px; }
+.green { color: #0f9c7c; }
+.left-nav { min-height:700px; width: 228px; float: left; border: 1px solid #e5e5e5; 
+	border-top: none; background: #f2f2f2; font-size: 16px; padding-bottom: 3000px;
+	 margin-bottom: -3000px; z-index: 99; }
+.left-nav ul li {   list-style-type: none;height: 54px; line-height: 54px; 
+	border-bottom: 1px solid #e5e5e5; padding-left: 25px; position: relative; }
+.left-nav ul li .li-top { display: inline-block; width: 5px; height: 55px; 
+	position: absolute; top: 0; left: 0; }
+.left-nav ul li:hover { background: #fff;}
+.left-nav ul li:hover a { color: #222; }
+.left-nav ul li:hover .li-top { background: #0f9c7c; }
+.left-nav ul li.li-green { background: #fff;}
+.left-nav ul li.li-green a { color: #222; }
+.left-nav ul li.li-green .li-top { background: #0f9c7c; }
+.left-nav ul li a { color: #797979; display: block; font-weight: 400; font-size: 18px;}
+.right-con {margin-left:230px;background:#fff;min-height: 700px;padding:10px 0 0 10px;}
+.vis-brief { text-align: center; }
+.vis-brief img { margin: 0 auto; }
+.brief-logo { padding-top: 60px; }
+.brief-tit { font-size: 24px; font-weight: normal; padding: 20px 0; 
+	font-family: Georgia, "Times New Roman", Times, serif; }
+.brief-con { padding-bottom: 50px;}
+.brf-p { margin-top: 20px; font-size: 20px; line-height:22px;text-indent:3em;
+    font-family:Georgia,"Times New Roman",Times,serif; color: #666;}
+.brf-c { margin-left: 150px;margin-top:20px;font-size:20px;color: #666;line-height:24px;}
+.brf-c span{ color: #19A566; }
+.brf-cm{ margin-left: 150px; margin-top:20px; font-size: 24px; color: #0f9c7c; 
+	font: Arial; line-height: 24px;}
+.about_c{ padding:10px 0 0 10px; color:#999; line-height:32px; }
+.about_c img{ margin:15px 0;}
+.about_c span{ color:#19A566}
+.right { float: right; }
+.li_right{ float: right; margin-right: 50px; margin-top:20px; }
+.li_right_more{ float: right; margin-right: 100px; margin-top:20px;}
+.devide_p{border-top:dotted;margin-top:2em; padding-top: 2em; margin-right: 100px;}
+.li_right_p{ float: right; margin-right: 80px; }
+.small_png {margin-left: 150px; margin-right: 100px;}
+.small_jpg{ float: right;}
+.home_p{margin-left:100px;}
+
+/*This part is the properties for the body part of page.*/
+#st-container { overflow: hidden; }
+.st-pusher {
+	position: relative; left: 0;z-index: 99;-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s; height: 100%; background: #fff; }
+.st-pusher::after {
+	position: absolute;top: 0;right: 0; width: 0;height: 0;background: rgba(0,0,0,0.2);
+	opacity: 0; -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+	transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;content: '';}
+
+/*verlay_menu is the id of the black page bottom part. */
+#overlay_menu { display: none; width: 100%; height: 100%; position: fixed; left: 0; 
+	top: 0; background: rgba(255,255,255,0); z-index: 98; }
+
+/*This part is to change the size of the main big picture */
+@media screen and (min-width:1500px) { 
+	.banner { width: 1500px; }
+}
+
+/*ex-table is the property of the table inside Experience*/
+#ex-table{						
+	margin-left:15%; margin-right:2%; margin-top:1em;
+	flex: 1; width:55%;font-size:1.1em; text-overflow:ellipsis;
+	text-align:center; flex-shrink:5;	height:37em; 
+	border-collapse:collapse; z-index:0;
+	}
+#ex-table td, #ex-table th{	
+	border:thin solid  #0f9c7c; text-overflow: ellipsis;
+}

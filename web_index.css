@@ -68,7 +68,7 @@ img { display: block; border: none; max-width: 100%; }
 .about_c{ padding:10px 0 0 10px; color:#999; line-height:32px; }
 .about_c img{ margin:15px 0;}
 .about_c span{ color:#19A566}
-.right { float: right; width:30%;}
+.right { float: right; width:32%;}
 .li_right{ float: right; margin-right: 2%; margin-top:20px; width: 20%}
 .li_right_more{ float: right; margin-right: 3%; margin-top:20px; width:20%;}
 .devide_p{border-top:dotted;margin-top:2em; padding-top: 2em; margin-right: 100px; }
